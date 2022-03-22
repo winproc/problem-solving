@@ -17,7 +17,7 @@ unsigned char recursive_caesar_check(unsigned char result) {
     }
 }
 
-int main(void) {
+int main(int argc, char** argv) {
     unsigned char input[2048];
     int shift_i;
 

@@ -31,7 +31,7 @@ int guess_check(int cn, int n) {
     }
 }
 
-int main(void) {
+int main(int argc, char** argv) {
     
     int min = 1;
     int max = pow_l(10, 9);

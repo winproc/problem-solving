@@ -10,7 +10,7 @@ of the letters remain the same.
 - Optional: Print out the new number.
 */
 
-int main(void) {
+int main(int argc, char** argv) {
     char inp_long[21];
     short answer = 0;
     char ret_v[21];
