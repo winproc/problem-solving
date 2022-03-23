@@ -3,6 +3,18 @@
 #include <string.h>
 #include <stdlib.h>
 
+/*
+
+You are given a string s. It contains following words: "subtract", "add", "multiply", "divide" followed by one-digit numbers. 
+Start with x = 1 and use the operations in the string from left to right on it. At the end, output x.
+
+Examples:
+[input] "add1subtract2"
+[output] 0
+Note: x = 1 initially, adding 1 makes it 2, subtracting 2 makes it 0
+
+*/
+
 
 int main(int argc, char** argv) {
     char input[512];
