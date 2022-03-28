@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include <string.h>
 
+/*
+
+Given a string stringA and a string stringB, output the longest match of stringB in stringA (at any position).
+This means that if stringB isn't directly in stringA, then output the longest subsequence of stringB that is at any position in stringA.
+
+*/
+
 int strlen_l(char* ptr) {
     int lenptr = 0;
     while (*ptr != '\0') { 
